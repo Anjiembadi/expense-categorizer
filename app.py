@@ -11,7 +11,7 @@ if st.button("Categorize"):
     if description.strip():
         with st.spinner("Analyzing..."):
             result = categorize_expense(description)
-        st.success("Done!")
+        st.success("Expense categorized successfully!")
         col1, col2 = st.columns(2)
         col1.metric("Category", result.expense_category)
         col2.metric("Type", result.expense_type)
