@@ -75,6 +75,12 @@ expense_categorizer/
 └── .env
 ```
 
+## Application Preview
+
+<p align="center">
+  <img src="images/app.png" width="800"/>
+</p>
+
 ---
 
 # Step-by-Step Setup Guide
